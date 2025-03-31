@@ -2,9 +2,11 @@
 
 This project demonstrates a simple **Data Ingestion Pipeline** built over a weekend using an **API** to extract data, store it in **BigQuery**, and automate the process using **Windows Task Scheduler**.
 
-## Project Overview
+## Project Overview & Workflow
 
 The pipeline performs the following steps:
+
+![Data Pipeline](workflow.png)
 
 1. **Data Extraction**: Data is pulled from an API (free version, with a 10-record limit per request).
 2. **Local Storage**: The data is saved locally as a **CSV file**.
